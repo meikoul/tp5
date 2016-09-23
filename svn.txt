@@ -1,0 +1,8 @@
+svnserve -d -r  /Applications/MAMP/htdocs/svn    启动svn服务命令
+ svn checkout svn://119.29.108.151/yun/ --username=yhh --password=123456 /Applications/MAMP/htdocs/xiaomasp  导入代码到本地
+cd  /Applications/MAMP/htdocs/vim2 进入到某个文件夹
+svn ci -m Favorite/index.html  提交某个页面到svn服务器
+svn update  更新当前文件夹
+svn ci -m /Application/Common/Conf/config.php
+
+
